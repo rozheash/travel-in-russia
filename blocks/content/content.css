@@ -1,0 +1,15 @@
+@import url(../lead/lead.css);
+@import url(../intro/intro.css);
+@import url(../photo-grid/photo-grid.css);
+@import url(../places/places.css);
+@import url(../place/place.css);
+@import url(../video/video.css);
+@import url(../comments/comments.css);
+@import url(../cover/cover.css);
+@import url(../content-title/content-title.css);
+@import url(../content-subtitle/content-subtitle.css);
+@import url(../comment/comment.css);
+
+.content {
+    max-width: 1184px;
+}

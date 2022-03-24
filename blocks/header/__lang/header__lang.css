@@ -1,0 +1,25 @@
+/*@import url(_active/header__lang_active.css);*/
+
+.header__lang {
+    color: #FFF;
+    margin-right: 18px;
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 23px;
+}
+
+.header__lang_active {
+    text-decoration: underline;
+}
+
+.header__lang:last-of-type {
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+	.header__lang {
+        font-size: 18px;
+        line-height: 17px;
+	}
+}

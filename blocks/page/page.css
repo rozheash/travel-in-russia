@@ -1,0 +1,13 @@
+@import url(./__header/page__header.css);
+@import url(./__footer/page__footer.css);
+@import url(./__content/page__content.css);
+@import url(./__lead/page__lead.css);
+@import url(./__intro/page__intro.css);
+@import url(./__photo-grid/page__photo-grid.css);
+@import url(./__video/page__video.css);
+@import url(./__comments/page__comments.css);
+
+.page {
+    font-family: Inter;
+    color: #FFF;
+}

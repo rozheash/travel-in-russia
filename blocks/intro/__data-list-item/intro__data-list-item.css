@@ -1,0 +1,12 @@
+.intro__data-list-item {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media (max-width: 767px) {
+    .intro__data-list-item {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

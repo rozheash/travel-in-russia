@@ -1,0 +1,41 @@
+@import url('__title/cover__title.css');
+@import url('__subtitle/cover__subtitle.css');
+@import url('__wrapper/cover__wrapper.css');
+@import url('__item/cover__item.css');
+
+.cover {
+	margin: 93px auto 0;
+	max-width: 1184px;
+	width: 100%;
+	padding-bottom: 50%;
+	/*height: 594px;*/
+	background-image: url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.cover:hover .cover__wrapper {
+	opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+	.cover {
+		padding-bottom: 500px;
+	}
+}
+
+@media (max-width: 767px) {
+	.cover {
+		height: 55px;
+		padding-bottom: 58%;
+	}
+}
+
+@media (max-width: 374px) {
+	.cover {
+		height: calc(102vw - 110px);
+		padding-bottom: 0;
+	}
+}

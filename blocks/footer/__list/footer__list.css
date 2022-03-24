@@ -1,0 +1,9 @@
+.footer__list {
+    display: inline;
+}
+
+@media (max-width: 767px) {
+	.footer__list {
+		display: block;
+	}
+}

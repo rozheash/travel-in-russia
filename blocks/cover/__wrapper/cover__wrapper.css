@@ -1,0 +1,29 @@
+.cover__wrapper {
+	width: 100%;
+	padding-bottom: 50%;
+	background: #2A2C2F;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media (max-width: 1000px) {
+	.cover__wrapper {
+		padding-bottom: 500px;
+	}
+}
+
+@media (max-width: 767px) {
+	.cover__wrapper {
+		height: 55px;
+		padding-bottom: 58%;
+	}
+}
+
+@media (max-width: 374px) {
+	.cover__wrapper {
+		height: calc(102vw - 110px);
+		padding-bottom: 0;
+	}
+}
